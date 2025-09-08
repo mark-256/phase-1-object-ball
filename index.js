@@ -1,12 +1,3 @@
-<h1>JavaScript Objectball</h1>
-<p>
-  Open your Chrome dev tools to see console output and trigger the debugger to
-  catch.
-</p>
-
-<script src="./src/00-objectball.js"></script>
-<script src="./src/01-simple-debug.js"></script>
-<!-- <script src="./src/02-advanced-debug.js"></script> -->
 function gameObject() {
   return {
     home: {
@@ -21,7 +12,7 @@ function gameObject() {
           assists: 12,
           steals: 3,
           blocks: 1,
-          slamDunks: 1
+          slamDunks: 1,
         },
         "Reggie Evans": {
           number: 30,
@@ -31,7 +22,7 @@ function gameObject() {
           assists: 12,
           steals: 12,
           blocks: 12,
-          slamDunks: 7
+          slamDunks: 7,
         },
         "Brook Lopez": {
           number: 11,
@@ -41,7 +32,7 @@ function gameObject() {
           assists: 10,
           steals: 3,
           blocks: 1,
-          slamDunks: 15
+          slamDunks: 15,
         },
         "Mason Plumlee": {
           number: 1,
@@ -51,7 +42,7 @@ function gameObject() {
           assists: 6,
           steals: 3,
           blocks: 8,
-          slamDunks: 5
+          slamDunks: 5,
         },
         "Jason Terry": {
           number: 31,
@@ -61,9 +52,9 @@ function gameObject() {
           assists: 2,
           steals: 4,
           blocks: 11,
-          slamDunks: 1
-        }
-      }
+          slamDunks: 1,
+        },
+      },
     },
     away: {
       teamName: "Charlotte Hornets",
@@ -77,7 +68,7 @@ function gameObject() {
           assists: 1,
           steals: 2,
           blocks: 7,
-          slamDunks: 2
+          slamDunks: 2,
         },
         "Bismak Biyombo": {
           number: 0,
@@ -87,7 +78,7 @@ function gameObject() {
           assists: 7,
           steals: 7,
           blocks: 15,
-          slamDunks: 10
+          slamDunks: 10,
         },
         "DeSagna Diop": {
           number: 2,
@@ -97,7 +88,7 @@ function gameObject() {
           assists: 12,
           steals: 4,
           blocks: 5,
-          slamDunks: 5
+          slamDunks: 5,
         },
         "Ben Gordon": {
           number: 8,
@@ -107,7 +98,7 @@ function gameObject() {
           assists: 2,
           steals: 1,
           blocks: 1,
-          slamDunks: 0
+          slamDunks: 0,
         },
         "Brendan Haywood": {
           number: 33,
@@ -117,10 +108,10 @@ function gameObject() {
           assists: 12,
           steals: 22,
           blocks: 5,
-          slamDunks: 12
-        }
-      }
-    }
+          slamDunks: 12,
+        },
+      },
+    },
   };
 }
 
